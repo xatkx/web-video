@@ -1,0 +1,90 @@
+ul.c {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    background-color: lightblue;
+    
+}
+
+ul.c{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+
+}
+
+li.b{
+    float: left;
+}
+
+li a.a{
+    display: block;
+    padding: 5px;
+    color: black;
+    text-align:center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;    
+    
+}
+li a.a:hover{
+    background-color: black;
+    color: white;
+
+}
+
+
+
+div.video {
+
+    position: relative;
+    margin-top: 50px;
+    margin-left:  auto;
+    margin-right:  auto;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+
+    border: 1px inset gray;  
+}
+
+body {
+   
+    background-image: url("IMAGENES/anime-games.jpg"); 
+    background-attachment: fixed;
+
+    background-repeat: repeat-y;
+}
+
+.insade {
+
+    
+}
+.prin{
+
+    background: white;
+    margin: 70px;
+}
+
+
+
+.ifram {
+    display: block;
+    margin-left:  auto;
+    margin-right:  auto;
+    width: auto;
+    height: auto;
+    border-style: inset;
+    border-radius: 5px;      
+} 
+
+.cap {
+
+   
+    text-align:center;
+    text-transform:  capitalize;
+}
