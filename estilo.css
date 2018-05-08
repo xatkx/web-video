@@ -2,8 +2,8 @@ ul.c {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border-radius: 5px;
-    background-color: white;
+    border-radius: 3px;
+    background-color: lightblue;
     
 }
 
@@ -54,10 +54,10 @@ div.video {
 
 body {
    
-    background-image: url("IMAGENES/anime-games.jpg"); 
+    background-image: url("IMAGENES/anime-games.jpg");
     background-attachment: fixed;
 
-    background-repeat: repeat-y;
+    background-repeat: repeat-y repeat-x;
 }
 
 .insade {
