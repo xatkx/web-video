@@ -22,7 +22,7 @@ li.b{
 
 li a.a{
     display: block;
-    padding: 5px;
+    padding: 10px;
     color: black;
     text-align:center;
     border-radius: 5px;
@@ -96,6 +96,6 @@ body {
 }
 
 
-.a{
+.pag{
     margin: 0 20%;
 }
