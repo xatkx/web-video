@@ -1,1 +1,96 @@
-ul.c{list-style-type:none;position:fixed;margin:0 10% 0 10%;width:80%;padding:0 1px 0 0;border-radius:3px;background-color:#2e456b;top:0;z-index:1}li.b{float:left}li a.a{display:block;padding:15px;color:#fff;text-align:center;border-radius:5px;box-sizing:border-box;text-decoration:none}li a.a:hover{transition:.5s;background-color:#fff;color:#000}li a.a:active{transition:.5s;background-color:#fff;color:#f00}#inicio{background:#f00}.prin{position:relative;margin:auto;width:80%;background-color:#0c2247;border-radius:5px;border:1px inset #000;color:#fff}.cap{font-size:1.8em;position:relative;margin-top:80px;font-variant:small-caps}body{text-transform:capitalize;font-size:100%;font-family:arial;background:#0a1e3f;color:#fff;margin-top:50px;}body .logo{float:right;font-size:3.2vw;display:block-inline;background:#008000;color:#fff;border:1.5px solid #000;border-radius:5px}.contenedor{position:relative;padding-bottom:56.25%;padding-top:30px;height:0;}.contenedor .ifram{position:absolute;height:100%;width:100%;margin:auto}footer{background:#000;position:relative;display:block;widht:100%;margin:5px 0 0 0;top:25px;padding:25px}h1{text-align:center}
+ul.c {
+  list-style-type: none;
+  position: fixed;
+  width: 10%;
+  height: 100%;
+  left: 0;
+  padding: 0 1px 0 0;
+  border-radius: 3px;
+  background-color: #2e456b;
+  top: 0;
+  z-index: 1;
+}
+li.b,
+li a.a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+li a.a:hover {
+  transition: 0.5s;
+  background-color: rgba(250,250,250,0.9);
+  color: #000;
+}
+li a.a:active {
+  transition: 0.5s;
+  background-color: #fff;
+  color: #f00;
+}
+#inicio {
+  background: #f00;
+}
+.prin {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  background-color: #0c2247;
+  border-radius: 5px;
+  border: 1px inset #000;
+  color: #fff;
+}
+.cap {
+  font-size: 1.8em;
+  position: relative;
+  margin-top: 80px;
+  font-variant: small-caps;
+}
+body {
+  text-transform: capitalize;
+  font-size: 100%;
+  font-family: arial;
+  background: #0a1e3f;
+  color: #fff;
+  margin-top: 50px;
+}
+body .logo {
+  float: right;
+  font-size: 3.2vw;
+  display: block-inline;
+  background: #008000;
+  color: #fff;
+  border: 1.5px solid #000;
+  border-radius: 5px;
+}
+.contenedor {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+}
+.contenedor .ifram {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+footer {
+  background: #000;
+  position: relative;
+  display: block;
+  widht: 100%;
+  margin: 5px 0 0 0;
+  top: 25px;
+  padding: 25px;
+  z-index: 1;
+}
+h1 {
+  text-align: center;
+}
+.Extra {
+  border-radius: 5px;
+  background-color: rgba(0,250,0,0.8);
+}
