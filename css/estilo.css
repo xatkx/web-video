@@ -1,16 +1,17 @@
 ul.c {
   list-style-type: none;
   position: fixed;
-  width: 10%;
-  height: 100%;
-  left: 0;
+  margin: 0 10% 0 10%;
+  width: 80%;
   padding: 0 1px 0 0;
   border-radius: 3px;
   background-color: #2e456b;
   top: 0;
   z-index: 1;
 }
-li.b,
+li.b {
+  float: left;
+}
 li a.a {
   display: block;
   padding: 15px;
@@ -85,7 +86,6 @@ footer {
   margin: 5px 0 0 0;
   top: 25px;
   padding: 25px;
-  z-index: 1;
 }
 h1 {
   text-align: center;
