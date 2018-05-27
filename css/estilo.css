@@ -1,3 +1,18 @@
+
+*
+{
+  box-sizing: border-box;
+}
+figure {
+  display: none;
+  margin: auto;
+  width: 80%;
+ 
+}
+figure img {
+  width: 100%;
+  height: 100%;
+}
 ul.c {
   list-style-type: none;
   position: fixed;
@@ -8,11 +23,12 @@ ul.c {
   background-color: #2e456b;
   top: 0;
   z-index: 1;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 li.b {
   float: left;
 }
-li a.a {
+ul li a.a {
   display: block;
   padding: 15px;
   color: #fff;
@@ -25,6 +41,7 @@ li a.a:hover {
   transition: 0.5s;
   background-color: rgba(250,250,250,0.9);
   color: #000;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.2);
 }
 li a.a:active {
   transition: 0.5s;
@@ -34,14 +51,28 @@ li a.a:active {
 #inicio {
   background: #f00;
 }
+@media screen and (max-width: 600px) {
+  ul.c li.b {
+    float: none;
+  }
+  ul.c {
+    width: 100%;
+    margin: auto;
+  }
+  .prin {
+    top: 150px;
+
+  }
+}
 .prin {
   position: relative;
   margin: auto;
   width: 80%;
   background-color: #0c2247;
   border-radius: 5px;
-  border: 1px inset #000;
   color: #fff;
+  padding: 50px 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
 }
 .cap {
   font-size: 1.8em;
@@ -57,14 +88,17 @@ body {
   color: #fff;
   margin-top: 50px;
 }
-body .logo {
+  li.logo {
   float: right;
   font-size: 3.2vw;
-  display: block-inline;
-  background: #008000;
+  text-shadow: 0px 8px 6px rgba(0, 0, 0, 1.2);
   color: #fff;
-  border: 1.5px solid #000;
   border-radius: 5px;
+}
+li.logo:hover
+{
+  text-shadow: 0px 8px 6px rgba(255, 255, 255, 1.2);
+  color: #000;
 }
 .contenedor {
   position: relative;
@@ -79,18 +113,25 @@ body .logo {
   margin: auto;
 }
 footer {
+  padding: 10px;
   background: #000;
-  position: relative;
-  display: block;
-  widht: 100%;
-  margin: 5px 0 0 0;
-  top: 25px;
-  padding: 25px;
+  width: 100%;
+  text-align: center;
 }
 h1 {
+  display: block;
   text-align: center;
+  margin: auto;
 }
 .Extra {
   border-radius: 5px;
   background-color: rgba(0,250,0,0.8);
+}
+
+.hina:hover
+{
+
+  text-shadow: 0px 8px 6px rgba(255, 255, 255, 1.2);
+  color: #000;
+
 }
