@@ -9,6 +9,7 @@ figure {
   width: 80%;
  
 }
+
 figure img {
   width: 100%;
   height: 100%;
@@ -16,11 +17,11 @@ figure img {
 ul.c {
   list-style-type: none;
   position: fixed;
-  margin: 0 10% 0 10%;
   width: 80%;
+  margin: 0 10% 0 10%;
   padding: 0 1px 0 0;
   border-radius: 3px;
-  background-color: #2e456b;
+  background: #2e456b;
   top: 0;
   z-index: 1;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
@@ -31,6 +32,8 @@ li.b {
 ul li a.a {
   display: block;
   padding: 15px;
+  width: 150px;
+
   color: #fff;
   text-align: center;
   border-radius: 5px;
@@ -58,10 +61,19 @@ li a.a:active {
   ul.c {
     width: 100%;
     margin: auto;
+    position: absolute;
   }
   .prin {
     top: 150px;
+  }
+  #sec
+  {
+    width: 100%;
+  }
+  ul.c li.b a
 
+  {
+    width: auto;
   }
 }
 .prin {
@@ -90,16 +102,13 @@ body {
 }
   li.logo {
   float: right;
-  font-size: 3.2vw;
-  text-shadow: 0px 8px 6px rgba(0, 0, 0, 1.2);
+  font-size: 2.8vw;
+ 
   color: #fff;
   border-radius: 5px;
+
 }
-li.logo:hover
-{
-  text-shadow: 0px 8px 6px rgba(255, 255, 255, 1.2);
-  color: #000;
-}
+
 .contenedor {
   position: relative;
   padding-bottom: 56.25%;
@@ -128,10 +137,11 @@ h1 {
   background-color: rgba(0,250,0,0.8);
 }
 
-.hina:hover
+ .logo:hover , .hina:hover 
 {
-
+  transition: 1s;
   text-shadow: 0px 8px 6px rgba(255, 255, 255, 1.2);
   color: #000;
 
 }
+
