@@ -25,6 +25,7 @@ ul.c {
   top: 0;
   z-index: 1;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+
 }
 li.b {
   float: left;
@@ -63,9 +64,7 @@ li a.a:active {
     margin: auto;
     position: absolute;
   }
-  .prin {
-    top: 150px;
-  }
+  
   #sec
   {
     width: 100%;
@@ -85,6 +84,8 @@ li a.a:active {
   color: #fff;
   padding: 50px 10px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 5%;
+
 }
 .cap {
   font-size: 1.8em;
@@ -98,7 +99,7 @@ body {
   font-family: arial;
   background: #0a1e3f;
   color: #fff;
-  margin-top: 50px;
+
 }
   li.logo {
   float: right;
@@ -121,6 +122,10 @@ body {
   width: 100%;
   margin: auto;
 }
+header{
+  z-index: 2;
+
+}
 footer {
   padding: 10px;
   background: #000;
@@ -131,6 +136,7 @@ h1 {
   display: block;
   text-align: center;
   margin: auto;
+  margin-bottom: 5%;
 }
 .Extra {
   border-radius: 5px;
