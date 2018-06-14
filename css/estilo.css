@@ -42,7 +42,7 @@ ul li a.a {
   text-decoration: none;
 }
 li a.a:hover {
-  transition: 0.5s;
+  transition: 1.5s;
   background-color: rgba(250,250,250,0.9);
   color: #000;
   box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.2);
@@ -155,3 +155,29 @@ h1.hina {
 
 }
 
+@keyframes rodar {
+  0% {transform: rotate3d(0, 0, 0, 0deg);}
+  50% {transform: rotate3d(180, 0, 180, 180deg);}
+  100% {transform: rotate3d(10, 0, 0, 360deg);}
+}
+@keyframes multicolor {
+  
+  0% {background:linear-gradient(to top,white ,orange ,white ,orange)}
+  30% {background:linear-gradient(yellow ,green ,white ,orange)}
+  60% {background:linear-gradient(red ,lightpink ,white ,orange)}
+  90% {background:linear-gradient(lightsalmon ,orange ,white ,orange)}
+  100% {background:linear-gradient(lime , black ,white ,orange)}
+}
+
+.logo
+{
+  animation: rodar 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+body
+{
+  animation: multicolor 10s ease alternate infinite ;
+  transition: 2s;
+}
